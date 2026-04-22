@@ -59,7 +59,7 @@ body {
   color:beige;
   margin-top:18px;
   margin-bottom:5px;
-  background-color:rgb(247, 63, 63);
+  background-color:rgb(63, 69, 247);
   height:40px;
 }
 
@@ -99,8 +99,8 @@ h2 {
 @media (max-width: 600px) {
   .center {
     width: 20%;
-    min-width: unset;
-    max-width: 100%;
+    /* min-width: unset;
+    max-width: 100%; */
     margin: 0;
     border-radius: 0;
   }
