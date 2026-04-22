@@ -1,5 +1,68 @@
 body {
-  background-image: url('../images/bg.jpg');
-  background-color:rgb(15, 15, 15);  
-  background-size: cover;
+  /* background-image: url('../images/bg.jpg'); */
+  background-color:black;
+  margin:0;
+}
+
+.top {
+  background-color: black;
+  color:white;
+  padding-top:30px;
+  margin: 0 auto;
+  margin-top: 0px;
+  margin-bottom:10px;
+}
+
+.center {
+  background-color: gray;
+  color:black;
+  padding: 0px;
+  width: 62%;
+  margin: 0px auto;          
+  margin-bottom:100px;
+  min-width: 460px;
+}
+
+/* .flex {
+  display: flex;
+  align-items: center;     
+  justify-content: center;
+  gap: 30px;  
+} */
+
+.comic-page {
+  width:100%;
+  height:auto;
+  border-color:black; 
+}
+
+.top img {
+  width:50%;
+  height:auto;
+  display: block;
+  margin: 0 auto;
+}
+
+.arrow {
+  width:5%;
+}
+
+.notes {
+  margin: 0 auto;
+}
+
+.menu {
+  display: flex;
+  align-items: center;     
+  justify-content: center;
+  gap: 32px; 
+  color:beige;
+  margin-top:18px;
+  background-color:black;
+  height:40px;
+}
+
+h2 {
+  display: block;
+  font-size: 1.25em;
 }
