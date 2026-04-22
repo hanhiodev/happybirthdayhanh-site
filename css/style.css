@@ -59,7 +59,7 @@ body {
   color:beige;
   margin-top:18px;
   margin-bottom:5px;
-  background-color:rgb(63, 69, 247);
+  background-color:rgb(63, 232, 247);
   height:40px;
 }
 
@@ -96,12 +96,12 @@ h2 {
   font-size:1em;
 }
 
-@media (max-width: 600px) {
+/* @media (max-width: 600px) {
   .center {
     width: 20%;
     /* min-width: unset;
-    max-width: 100%; */
+    max-width: 100%; 
     margin: 0;
     border-radius: 0;
   }
-}
+} */
