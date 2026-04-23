@@ -4,6 +4,7 @@ body {
   margin:0;
 }
 
+/* logo */
 .top {
   background-color: black;
   color:white;
@@ -11,29 +12,6 @@ body {
   margin: 0 auto;
   margin-top: 0px;
   margin-bottom:10px;
-}
-
-.center {
-  background-color: gray;
-  color:black;
-  padding: 0px;
-  width: clamp(400px, 60%, 760px);
-  margin: 0px auto;          
-  margin-bottom:100px;
-  border-radius: 10px;
-}
-
-/* .flex {
-  display: flex;
-  align-items: center;     
-  justify-content: center;
-  gap: 30px;  
-} */
-
-.comic-page {
-  width:100%;
-  height:auto;
-  border-color:black; 
 }
 
 .top img {
@@ -44,13 +22,7 @@ body {
   min-width: 360px;
 }
 
-.arrow {
-  width:5%;
-}
-
-.notes {
-  margin: 0 auto;
-}
+/* navigation menu */
 
 .menu {
   display: flex;
@@ -81,6 +53,31 @@ h2 {
   }
 }
 
+/* comic page */
+.center {
+  background-color: rgb(194, 194, 194);
+  color:black;
+  padding: 0px;
+  width: clamp(400px, 60%, 760px);
+  margin: 0px auto;          
+  margin-bottom:100px;
+  border-radius: 10px;
+}
+
+.comic-page {
+  width:100%;
+  height:auto;
+  border-color:black; 
+}
+
+
+/* .notes {
+  margin: 0 auto;
+} */
+
+
+/* Arrows and chapter select */
+
 .page-select {
   align-items: center;
   justify-content: center;
@@ -88,8 +85,9 @@ h2 {
   display: flex;
   margin: 0 auto;
   margin-top: 5px;
+  margin-bottom:0px;
   height:50px;
-  background-color:aqua;
+  background-color:rgb(194, 194, 194);
   width:100%;
 }
 
@@ -105,12 +103,13 @@ h2 {
   font-size:1em;
 }
 
+/* Authors note and mary pfp */
 .upload-note {
   width:80%;
-  background-color:rgb(205, 205, 205);
+  background-color:rgb(194, 194, 194);
   padding: 0px;
   margin: 0 auto;
-  margin-top:32px;
+  margin-top:28px;
   margin-bottom:10px;
   display: flex;
   align-items: center;
@@ -134,6 +133,8 @@ h6 {
   background-color:rgb(199, 199, 199);
 }
 
+/* Page 1, Page 10, Page 20...etc */
+
 .mini-archive {
   align-items: center;
   justify-content: center;
@@ -147,6 +148,8 @@ h6 {
   text-decoration:underline;
   font-size:1.2em;
 }
+
+/* Socials red boxes */
 
 .socials {
   display:flex;
@@ -197,23 +200,6 @@ h5 {
   }
 }
 /* end phone dimensions */
-
-
-/* @media (max-width: 800px) {
-  .btn {
-    height:30px;
-    width:35px;
-    font-size:.8em;
-  }
-  .select {
-    height:20px;
-    width: 200px;
-    font-size:.8em;
-  }
-  .page-select {
-    gap: 15px; 
-  }
-} */
 
 @media (max-width: 1000px) {
   .btn {
