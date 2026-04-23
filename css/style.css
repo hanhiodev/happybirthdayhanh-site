@@ -106,17 +106,19 @@ h2 {
 }
 
 .upload-note {
-  width:82%;
+  width:80%;
   background-color:rgb(205, 205, 205);
   padding: 0px;
   margin: 0 auto;
+  margin-top:32px;
+  margin-bottom:10px;
   display: flex;
   align-items: center;
 }
 
 .upload-note img {
-  width:6%;
-  height:6%;
+  width:8%;
+  height:8%;
 }
 
 h6 {
@@ -128,7 +130,7 @@ h6 {
 .textbox {
   border:2px solid #5b5b5b;
   width:100%;
-  padding:1.5%;
+  padding:2.5%;
   background-color:rgb(199, 199, 199);
 }
 
@@ -137,12 +139,30 @@ h6 {
   justify-content: center;
   gap: 20px; 
   display: flex;
+  margin-bottom:50px;
+  margin-top:0px;
 }
 
 .mini-archive h2 {
   text-decoration:underline;
+  font-size:1.2em;
 }
 
+.socials {
+  display:flex;
+  width:100%;
+  align-items: center;
+  margin-left:35px;
+  gap: 8px; 
+}
+
+.socials img {
+  width: 6%;
+}
+
+h5 {
+  font-size:1em;
+}
 
 
 
